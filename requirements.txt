@@ -5,7 +5,7 @@ streamlit==1.34.0
 git+https://github.com/openai/whisper.git
 
 # === PyTorch (CPU versiyonu çünkü Streamlit Cloud GPU desteklemez) ===
-torch==2.2.1+cpu
+torch>=2.5.0
 torchaudio==2.2.1+cpu
 -f https://download.pytorch.org/whl/torch_stable.html
 
