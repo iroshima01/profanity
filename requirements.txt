@@ -1,27 +1,17 @@
-# === Streamlit ve UI ===
-streamlit==1.34.0
-
-# === OpenAI Whisper (en son kararlı sürüm) ===
-git+https://github.com/openai/whisper.git
-
-# === PyTorch (CPU versiyonu çünkü Streamlit Cloud GPU desteklemez) ===
-torch>=2.5.0
-torchaudio==2.2.1+cpu
--f https://download.pytorch.org/whl/torch_stable.html
-
-# === Transformers & NLP ===
-transformers==4.43.0
-sentencepiece==0.1.99
-
-# === NumPy ve Bilimsel Kütüphaneler (NumPy 2 uyumsuzluğu için sabit) ===
-numpy==1.26.4
-scipy==1.13.0
-
-# === Ses ve Video İşleme ===
+streamlit==1.45.1
+torch==2.5.1
+numpy==2.0.2
+regex==2024.11.6
 pydub==0.25.1
+transformers==4.51.3
+scipy==1.13.1
 moviepy==1.0.3
-imageio-ffmpeg==0.4.9  # moviepy için
-ffmpeg-python==0.2.0    # subprocess wrapper (asıl ffmpeg binary sistemde olmalı)
-
-# === Yardımcılar ===
-tqdm==4.66.4
+tokenizers==0.21.1
+safetensors==0.5.3
+huggingface-hub==0.31.1
+filelock==3.18.0
+requests==2.32.3
+tqdm==4.67.1
+packaging==24.2
+PyYAML==6.0.2
+git+https://github.com/openai/whisper.git
